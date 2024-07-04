@@ -1,0 +1,29 @@
+[
+    {
+        "label": "is_prime",
+        "kind": 2,
+        "importPath": "mycode",
+        "description": "mycode",
+        "peekOfCode": "def is_prime(n):\n    \"\"\"\n    Return a boolean value based upon\n    whether the argument n is a prime number.\n    \"\"\"\n    if n < 2:\n        return False\n    if n == 2:\n        return True\n    for m in range(2, int(n**0.5)+1):",
+        "detail": "mycode",
+        "documentation": {}
+    },
+    {
+        "label": "say_hi",
+        "kind": 2,
+        "importPath": "mycode",
+        "description": "mycode",
+        "peekOfCode": "def say_hi(*names, greeting='Hello', capitalized=False):\n    \"\"\"\n    Print a string, with a greeting to everyone.\n    :param *names: tuple of names to be greeted.\n    :param greeting: 'Hello' as default.\n    :param capitalized: Whether name should be converted to capitalzed before print. False as default.\n    :returns: None\n    \"\"\"\n    for name in names:\n        if capitalized:",
+        "detail": "mycode",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "that",
+        "description": "that",
+        "peekOfCode": "def main():\n    s = \"\"\"Gur Mra bs Clguba, ol Gvz Crgref\n    Ornhgvshy vf orggre guna htyl.\n    Rkcyvpvg vf orggre guna vzcyvpvg.\n    Fvzcyr vf orggre guna pbzcyrk.\n    Pbzcyrk vf orggre guna pbzcyvpngrq.\n    Syng vf orggre guna arfgrq.\n    Fcnefr vf orggre guna qrafr.\n    Ernqnovyvgl pbhagf.\n    Fcrpvny pnfrf nera'g fcrpvny rabhtu gb oernx gur ehyrf.",
+        "detail": "that",
+        "documentation": {}
+    }
+]
